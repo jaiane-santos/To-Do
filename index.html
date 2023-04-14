@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./icon/check.jpg"/>
+    <title>To Do</title>
+    <link rel="stylesheet" href="css/styles.css">
+   
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>To Do</h1>
+            <h3>Salve suas tarefas!</h3>
+            <form id="ad-task">
+                <input type="text" id="title-task" placeholder="Sua tarefa...">
+                <button id="btn" type="submit">
+                    <ion-icon name="add-outline"></ion-icon>
+                </button>
+        </div>
+    </div>
+    <div id="list-container">
+        <h2>Tarefas</h2>
+        <ul id="list-task">
+            <li class="task template hide">
+                <span class="title"></span>
+                <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</html>
