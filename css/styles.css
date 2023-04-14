@@ -113,14 +113,11 @@ right: 0;
     display: none;
 }
 
-#list-task li.done{
+#list-task li.done, ion-icon.done{
     color:rgb(97, 93, 93);
     text-decoration: line-through;
     background-color: rgba(105, 102, 102, 0.206);
 }
 
-#list-task ion-icon.done{
-  color:aquamarine
-}
 
 

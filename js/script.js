@@ -17,10 +17,23 @@ function addTask(){
 
         const btnremove = newtemplate.querySelector('.remove-btn').addEventListener('click', function(){
             removeTask(this);
+        });
+
+        const done = newtemplate.querySelector('.done-btn').addEventListener('click', function(){
+            completed(this)
+            newtemplate.querySelector('.done-btn').style.color = "aquamarine"
+            
         })
 
         document.querySelector('#title-task').value ="";
     }
+}
+
+function completed(task){
+    const donetask = task.parentNode;
+
+    donetask.classList.toggle("done");
+
 }
 
 function removeTask(task){
