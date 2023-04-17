@@ -61,7 +61,7 @@ ion-icon{
 
 #list-task{
     list-style: none;
-    padding-left: 500px;
+    padding-left: auto;
     margin-top: 40px;
 }
 
@@ -76,7 +76,7 @@ ion-icon{
     color:aliceblue;
     font-size: 25px;
     margin-bottom: 10px;
-    padding-left: 15px;
+    padding-left: 300px;
     transition: .5s;
 }
 
